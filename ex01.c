@@ -13,7 +13,7 @@ int main() {
 				contador++;
 			}
 		}
-		printf("%d", contador);
+		printf("%d\n", contador);
 		scanf("%s", entrada);
 	}
 	return 0;
