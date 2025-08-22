@@ -1,4 +1,4 @@
-class BinarySort {
+class BinarySearch {
     public static int total = 256;
     
     //vetor
@@ -59,3 +59,4 @@ class BinarySort {
         System.out.println(resultado!=-1?resultado:"Nao existe");
     }
 }
+
