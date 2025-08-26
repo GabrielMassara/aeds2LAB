@@ -4,8 +4,8 @@ public class Espelho {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String texto = sc.nextLine();
-		
-		while(sc.hasNextLine()) {
+
+		do {
 			String valores[] = texto.split(" ");
 			int n1 = Integer.parseInt(valores[0]);
 			int n2 = Integer.parseInt(valores[1]);
@@ -18,6 +18,6 @@ public class Espelho {
                         }
 			System.out.print("\n");
 			texto = sc.nextLine();
-		}	
+		} while(sc.hasNextLine());
 	}
 }
